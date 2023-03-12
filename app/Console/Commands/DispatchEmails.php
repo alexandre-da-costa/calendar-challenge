@@ -12,7 +12,7 @@ class DispatchEmails extends Command
      *
      * @var string
      */
-    protected $signature = 'dispatch:emails';
+    protected $signature = 'dispatch:emails {date?}';
 
     /**
      * The console command description.
@@ -26,6 +26,7 @@ class DispatchEmails extends Command
      */
     public function handle(): void
     {
-        dispatch(new GenerateDailyMeetingsDataAndSendEmailsJob());
+        $date = $this->argument('date');
+        dispatch(new GenerateDailyMeetingsDataAndSendEmailsJob($date));
     }
 }

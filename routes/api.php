@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/meeting-data', MeetingDataController::class);
+Route::post('/meeting-data', MeetingDataController::class);
