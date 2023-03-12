@@ -1,0 +1,6 @@
+{
+    "total": <TOTAL_RESULTS>,
+    "per_page": <RESULTS_PER_PAGE>,
+    "current_page": <CURRENT_PAGE>,
+    "data": []
+}

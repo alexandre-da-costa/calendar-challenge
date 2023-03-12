@@ -1,0 +1,9 @@
+{
+    "id": <MEETING_ID>,
+    "changed": <MEETING_CHANGED>,
+    "start": <MEETING_START>,
+    "end": <MEETING_END>,
+    "title": <MEETING_TITLE>,
+    "accepted": [],
+    "rejected": []
+}
